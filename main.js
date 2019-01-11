@@ -1,3 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
-  alert("Hola");
+  const botonComprar = document.querySelectorAll(".boton-comprar")[0];
+  botonComprar.addEventListener("click", function() {
+    alert("Gracias por tu compra");
+  })
 });
